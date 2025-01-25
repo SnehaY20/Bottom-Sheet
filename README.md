@@ -36,9 +36,11 @@ Before you can run this application, make sure you have the following installed:
    Navigate to the frontend folder & install the necessary dependencies-
 
    ```bash
-   npm run
+   npm install
+   ```
 
    Then run the command-
+
    ```bash
    npm start
 
