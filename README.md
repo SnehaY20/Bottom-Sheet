@@ -29,7 +29,7 @@ Before you can run this application, make sure you have the following installed:
    ```bash
    git clone https://github.com/SnehaY20/Bottom-Sheet.git
 
-
+    ```
 
 2. **Open the folder "bottom-sheet" in code editor**
 
