@@ -61,10 +61,15 @@ const BottomSheet = () => {
   }, [position, heights]);
 
   return (
-    <div ref={sheetRef} onMouseDown={handleDrag} onTouchStart={handleDrag}>
-      <h2>Bottom Sheet Content.</h2>
-
-      <div>
+    <div
+      className="bottom-sheet user-select-none"
+      ref={sheetRef}
+      onMouseDown={handleDrag}
+      onTouchStart={handleDrag}
+    >
+      <div className="handle"></div>
+      <h2>Bottom Sheet Content</h2>
+      <div className="content">
         <button onClick={() => setPosition(2)}>Fully Open</button>
         <button onClick={() => setPosition(1)}>Half Open</button>
         <button onClick={() => setPosition(0)}>Close</button>
