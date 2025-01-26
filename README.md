@@ -29,11 +29,11 @@ Before you can run this application, make sure you have the following installed:
    ```bash
    git clone https://github.com/SnehaY20/Bottom-Sheet.git
 
-    ```
+   ```
 
 2. **Open the folder "bottom-sheet" in code editor**
 
-   Navigate to the frontend folder & install the necessary dependencies-
+   Install the necessary dependencies-
 
    ```bash
    npm install
@@ -43,4 +43,4 @@ Before you can run this application, make sure you have the following installed:
 
    ```bash
    npm start
-
+   ```
